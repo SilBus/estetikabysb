@@ -1,0 +1,222 @@
+:root{
+    --fuente-cursiva: "Allura", cursive;
+    --fuente-imprenta: "Playfair Display", serif;
+    --rosa-claro: #f9cce4;
+    --rosa-medio: #f3a8cb;
+    --rosa-vibrante: #e284b4;
+    --rosa-brillo: #e68dc1;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris: #d9d9d9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-home{
+    background-image: url(../img/bg-nav.jpg);
+    height: 37.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 3rem;
+}
+
+.style-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.style-nav_bg{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.style-nav_font{
+    font-family: var(--fuente-imprenta);
+    color: #444;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.style-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.style-card_uno{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--rosa-medio);
+    height: 15rem;
+}
+
+@media (max-width: 500px) {
+    .style-card_uno{
+    height: 66px;
+}
+}
+
+.style-card_dos{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--rosa-claro);
+    height: 15rem;
+}
+
+@media (max-width: 500px) {
+    .style-card_dos{
+    height: 66px;
+}
+}
+
+.style-card_tres{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--rosa-medio);
+    height: 15rem;
+}
+
+@media (max-width: 500px) {
+    .style-card_tres{
+    height: 66px;
+}
+}
+
+.style-card_cuatro{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--rosa-claro);
+    height: 15rem;
+}
+
+@media (max-width: 500px) {
+    .style-card_cuatro{
+    height: 66px;
+}
+}
+
+.style-card_tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.style-card_tittle1{
+    font-family: var(--fuente-cursiva);
+    font-size: 3rem;
+    color: var(--blanco)
+}
+
+.style-card_tittle2{
+    font-family: var(--fuente-imprenta);
+    font-size: 1.4rem;
+    color: var(--blanco)
+}
+
+.style-card_tittle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--rosa-medio);
+    height: 8rem;
+}
+
+.style-card_tittle4{
+    font-family: var(--fuente-imprenta);
+    font-size: 2.2rem;
+    color: var(--blanco);
+}
+
+.style-tittle_card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.style-tittle_card1{
+    font-family: var(--fuente-imprenta);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--negro);
+}
+/*FOOTER*/
+
+.style-footer{
+    background-image: url(../img/6E122D9B-2468-4F87-88BB-C6437360BA4C.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.style-redes_tittle{
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuente-cursiva);
+    font-size: 5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 500px) {
+    .style-redes_tittle{
+        font-size: 3rem;
+    }
+}
+
+.style-redes_p{
+    font-family: var(--fuente-imprenta);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--negro);
+    margin-top: 0.3rem;
+}
+
+.style-redes_p1{
+    font-family: var(--fuente-imprenta);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--negro);
+    margin-top: 0.3rem;
+}
+
+/*TRATAMIENTOS*/
+
+.header-tratamientos{
+    background-image: url(../img/BCDDBC1C-6E17-4F36-B513-56ED9FCE294D.png);
+    height: 37.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*PRODUCTOS*/
+
+.header-productos{
+    background-image: url(../D01F048E-0530-48D4-BF5E-6133E8DB16BF.png);
+    height: 37.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
