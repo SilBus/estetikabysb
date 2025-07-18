@@ -212,6 +212,47 @@ a{
     background-position: center center;
 }
 
+.style-card_tratamientos{
+    margin-top: 5rem;
+    border: none;
+}
+
+.style-color{
+    background-color: var(--rosa-brillo);
+}
+
+.style-card_tratamientos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-card_tittle5{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--rosa-medio);
+}
+
+.style-card_tittle6{
+    font-family: var(--fuente-cursiva);
+    font-size: 5rem;
+    color: var(--blanco);
+}
+
+.style-card_txttratamientos{
+    font-family: var(--fuente-imprenta);
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--blanco);
+}
+
+.style-card_txt1{
+    font-family: var(--fuente-imprenta);
+    color: var(--negro);
+    font-size: 1.2rem;
+}
 /*PRODUCTOS*/
 
 .header-productos{
@@ -251,4 +292,5 @@ a{
     align-items: center;
     column-gap: 3rem;
     background-color: #e284b4;
+    border: 0;
 }
