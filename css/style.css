@@ -167,6 +167,7 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding-bottom: 3rem;
 }
 
 .style-redes_tittle{
@@ -219,4 +220,35 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/*CONTACTO*/
+
+.header-contacto{
+    background-image: url(../D01F048E-0530-48D4-BF5E-6133E8DB16BF.png);
+    height: 27rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.style-pie_contacto{
+    background-color: #f3a8cb;
+    padding-bottom: 3rem;
+}
+
+.style-tittle_contacto{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: var(--fuente-cursiva);
+    font-size: 5rem;
+}
+
+.style-card-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3rem;
+    background-color: #e284b4;
 }
