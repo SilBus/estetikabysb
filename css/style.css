@@ -1,4 +1,4 @@
-:root{
+:root {
     --fuente-cursiva: "Allura", cursive;
     --fuente-imprenta: "Playfair Display", serif;
     --rosa-claro: #f9cce4;
@@ -10,22 +10,22 @@
     --gris: #d9d9d9;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100vw;
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.header-home{
+.header-home {
     background-image: url(../img/bg-nav.jpg);
     height: 37.5rem;
     background-size: cover;
@@ -34,26 +34,26 @@ a{
     padding-bottom: 3rem;
 }
 
-.style-nav{
+.style-nav {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.style-nav_bg{
+.style-nav_bg {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 
-.style-nav_font{
+.style-nav_font {
     font-family: var(--fuente-imprenta);
     color: #444;
     font-weight: 500;
     font-size: 15px;
 }
 
-.style-cards{
+.style-cards {
     display: flex;
     justify-content: center;
     column-gap: 1.5rem;
@@ -61,7 +61,7 @@ a{
     margin-bottom: 3rem;
 }
 
-.style-card_uno{
+.style-card_uno {
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--rosa-medio);
@@ -69,12 +69,12 @@ a{
 }
 
 @media (max-width: 500px) {
-    .style-card_uno{
-    height: 66px;
-}
+    .style-card_uno {
+        height: 66px;
+    }
 }
 
-.style-card_dos{
+.style-card_dos {
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--rosa-claro);
@@ -82,12 +82,12 @@ a{
 }
 
 @media (max-width: 500px) {
-    .style-card_dos{
-    height: 66px;
-}
+    .style-card_dos {
+        height: 66px;
+    }
 }
 
-.style-card_tres{
+.style-card_tres {
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--rosa-medio);
@@ -95,12 +95,12 @@ a{
 }
 
 @media (max-width: 500px) {
-    .style-card_tres{
-    height: 66px;
-}
+    .style-card_tres {
+        height: 66px;
+    }
 }
 
-.style-card_cuatro{
+.style-card_cuatro {
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--rosa-claro);
@@ -108,31 +108,31 @@ a{
 }
 
 @media (max-width: 500px) {
-    .style-card_cuatro{
-    height: 66px;
-}
+    .style-card_cuatro {
+        height: 66px;
+    }
 }
 
-.style-card_tittle{
+.style-card_tittle {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.style-card_tittle1{
+.style-card_tittle11 {
     font-family: var(--fuente-cursiva);
     font-size: 3rem;
     color: var(--blanco)
 }
 
-.style-card_tittle2{
+.style-card_tittle2 {
     font-family: var(--fuente-imprenta);
     font-size: 1.4rem;
     color: var(--blanco)
 }
 
-.style-card_tittle3{
+.style-card_tittle3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,28 +141,30 @@ a{
     height: 8rem;
 }
 
-.style-card_tittle4{
+.style-card_tittle4 {
     font-family: var(--fuente-imprenta);
     font-size: 2.2rem;
     color: var(--blanco);
 }
 
-.style-tittle_card{
+.style-tittle_card {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
-.style-tittle_card1{
+.style-tittle_card1 {
     font-family: var(--fuente-imprenta);
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--negro);
+    background-color: rgba(255, 255, 255, 0.418);
 }
+
 /*FOOTER*/
 
-.style-footer{
+.style-footer {
     background-image: url(../img/6E122D9B-2468-4F87-88BB-C6437360BA4C.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -170,7 +172,7 @@ a{
     padding-bottom: 3rem;
 }
 
-.style-redes_tittle{
+.style-redes_tittle {
     text-align: center;
     color: var(--negro);
     font-family: var(--fuente-cursiva);
@@ -181,12 +183,12 @@ a{
 }
 
 @media (max-width: 500px) {
-    .style-redes_tittle{
+    .style-redes_tittle {
         font-size: 3rem;
     }
 }
 
-.style-redes_p{
+.style-redes_p {
     font-family: var(--fuente-imprenta);
     font-size: 1.5rem;
     font-weight: 500;
@@ -194,7 +196,7 @@ a{
     margin-top: 0.3rem;
 }
 
-.style-redes_p1{
+.style-redes_p1 {
     font-family: var(--fuente-imprenta);
     font-size: 1.3rem;
     font-weight: 600;
@@ -204,7 +206,7 @@ a{
 
 /*TRATAMIENTOS*/
 
-.header-tratamientos{
+.header-tratamientos {
     background-image: url(../img/BCDDBC1C-6E17-4F36-B513-56ED9FCE294D.png);
     height: 37.5rem;
     background-size: cover;
@@ -212,22 +214,22 @@ a{
     background-position: center center;
 }
 
-.style-card_tratamientos{
+.style-card_tratamientos {
     margin-top: 5rem;
     border: none;
 }
 
-.style-color{
+.style-color {
     background-color: var(--rosa-brillo);
 }
 
-.style-card_tratamientos1{
+.style-card_tratamientos1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.style-card_tittle5{
+.style-card_tittle5 {
     display: column;
     justify-content: center;
     align-items: center;
@@ -235,28 +237,29 @@ a{
     background-color: var(--rosa-medio);
 }
 
-.style-card_tittle6{
+.style-card_tittle6 {
     font-family: var(--fuente-cursiva);
     font-size: 5rem;
     color: var(--blanco);
 }
 
-.style-card_txttratamientos{
+.style-card_txttratamientos {
     font-family: var(--fuente-imprenta);
     font-size: 1.3rem;
     line-height: 2rem;
     color: var(--blanco);
 }
 
-.style-card_txt1{
+.style-card_txt1 {
     font-family: var(--fuente-imprenta);
     color: var(--negro);
     font-size: 1.2rem;
 }
+
 /*PRODUCTOS*/
 
-.header-productos{
-    background-image: url(../D01F048E-0530-48D4-BF5E-6133E8DB16BF.png);
+.header-productos {
+    background-image: url(../img/PRODUCTOS\ ESTETICOS\ FACIALES.png);
     height: 37.5rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +268,7 @@ a{
 
 /*CONTACTO*/
 
-.header-contacto{
+.header-contacto {
     background-image: url(../img/spa\ facial\ contacto.png);
     height: 27rem;
     background-size: cover;
@@ -273,12 +276,12 @@ a{
     background-position: center center;
 }
 
-.style-pie_contacto{
+.style-pie_contacto {
     background-color: #f3a8cb;
     padding-bottom: 3rem;
 }
 
-.style-tittle_contacto{
+.style-tittle_contacto {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
@@ -286,11 +289,63 @@ a{
     font-size: 5rem;
 }
 
-.style-card-3{
+.style-card-3 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 3rem;
     background-color: #e284b4;
     border: 0;
+}
+
+/*PRODUCTOS - SKINCARE */
+
+.style-bd{
+    background-color: #fff0f5;
+}
+
+.style-card_sk{
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    padding-top: 2rem;
+}
+
+.style-card_tittle1 {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+}
+
+.style-cardtittle2{
+    font-family: var(--fuente-cursiva);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.style-cardtext_2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botones {
+    margin-top: 15px;
+}
+
+.boton {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.compra {
+    background-color: #ff69b4;
+}
+
+.whatsapp {
+    background-color: #25D366;
 }
