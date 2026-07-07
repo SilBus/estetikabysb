@@ -195,3 +195,16 @@ section {
 .estilo-card-boton:hover{
     border: solid 1px var(--color-negro);
 }
+
+/*CARROUSEL*/
+
+.estilo-carrousel{
+    width: 700px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1050px) {
+    .estilo-carrousel{
+        width: 100%;
+    }
+}
