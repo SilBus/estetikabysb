@@ -255,7 +255,7 @@ footer {
 
 .estilo-boton-redes:hover {
   background-color: var(--color-4);
-  color: var(--color-blanco);
+  color: var(--color-negro);
   transform: scale(1.05);
 }
 
